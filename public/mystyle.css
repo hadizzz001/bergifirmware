@@ -1,0 +1,39 @@
+.attorna-logo{
+    padding: 0;
+}
+
+
+.rs-layer .rev-btn .rev-withicon{
+    background: linear-gradient(#994a29 0%, #b76e50 100%) !important;
+}
+a.rs-layer, a.rs-layer:-webkit-any-link{
+    background: linear-gradient(#994a29 0%, #b76e50 100%) !important;
+    min-height: 10px !important;
+    height: 50px !important;
+}
+ 
+
+
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1000;
+    background-color: white;
+  }
+ 
+
+  rs-layer:not(.rs-wtbindex), .rs-layer:not(.rs-wtbindex), rs-alyer *:not(.rs-wtbindex), .rs-layer *:not(.rs-wtbindex){
+    text-align: center !important;
+  }
