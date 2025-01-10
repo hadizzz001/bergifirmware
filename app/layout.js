@@ -128,13 +128,9 @@ export default function RootLayout({ children }) {
     type="text/css"
     media="all"
   />
-  <link
-    rel="stylesheet"
-    id="font-awesome-css"
-    href="wp-content/plugins/goodlayers-core/plugins/fontawesome/font-awesome.css@ver=6.7.1.css"
-    type="text/css"
-    media="all"
-  />
+<!-- Latest Font Awesome CDN link -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
   <link
     rel="stylesheet"
     id="elegant-font-css"
