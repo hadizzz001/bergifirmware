@@ -128,8 +128,8 @@ export default function RootLayout({ children }) {
     type="text/css"
     media="all"
   />
-<!-- Latest Font Awesome CDN link -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+ 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
 
   <link
     rel="stylesheet"
