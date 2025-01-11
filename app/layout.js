@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="profile" href="http://gmpg.org/xfn/11" />
   <link rel="pingback" href="https://murphysolicitors.co.uk/xmlrpc.php" />
-  <title>Top Lebanon Solicitors</title>
+  <title>Bergi Law Firm</title>
   <style
     dangerouslySetInnerHTML={{
       __html:
@@ -45,12 +45,12 @@ export default function RootLayout({ children }) {
   <meta property="og:locale" content="en_US" />
   <meta
     property="og:site_name"
-    content="S G Murphy Solicitors - Top  Solicitors"
+    content="Bergi Law Firm"
   />
   <meta property="og:type" content="website" />
   <meta
     property="og:title"
-    content="Solicitors : Top Lebanon Solicitors"
+    content="Bergi Law Firm"
   />
   <meta
     property="og:description"
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
-    content="Solicitors : Top Lebanon Solicitors"
+    content="Bergi Law Firm"
   />
   <meta
     name="twitter:description"
