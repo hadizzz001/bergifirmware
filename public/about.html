@@ -999,9 +999,7 @@
 				<div class="attorna-mobile-menu-right">
 
 					<div class="attorna-mobile-menu">
-						<a class="attorna-mm-menu-button attorna-mobile-menu-button attorna-mobile-button-hamburger-with-border"
-						href="#"
-						onclick="window.location.href='/about.html#attorna-mobile-menu'; window.location.reload();">
+						<a class="attorna-mm-menu-button attorna-mobile-menu-button attorna-mobile-button-hamburger-with-border" id="mybtnnav">
 						<i class="fa fa-bars"></i>
 					 </a>
 					 
@@ -1544,7 +1542,46 @@
 
  
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-
+	<script>
+		document.getElementById("mybtnnav").addEventListener("click", function (event) {
+		  event.preventDefault(); // Prevent the default anchor behavior
+	
+		  // Add classes to the div with id "attorna-mobile-menu"
+		  const menuDiv = document.getElementById("attorna-mobile-menu");
+		  menuDiv.classList.add("mm-current", "mm-opened");
+	
+		  // Add classes to the <html> tag
+		  document.documentElement.classList.add(
+			"mm-opened",
+			"mm-blocking",
+			"mm-background",
+			"mm-right",
+			"mm-pagedim-black",
+			"mm-opening"
+		  );
+		});
+	
+		// Event listener for clicks anywhere on the screen
+		document.addEventListener("click", function (event) {
+		  // Ensure the click is not on the button itself
+		  const mybtnnav = document.getElementById("mybtnnav");
+		  if (!mybtnnav.contains(event.target)) {
+			// Remove classes from the div with id "attorna-mobile-menu"
+			const menuDiv = document.getElementById("attorna-mobile-menu");
+			menuDiv.classList.remove("mm-current", "mm-opened");
+	
+			// Remove classes from the <html> tag
+			document.documentElement.classList.remove(
+			  "mm-opened",
+			  "mm-blocking",
+			  "mm-background",
+			  "mm-right",
+			  "mm-pagedim-black",
+			  "mm-opening"
+			);
+		  }
+		});
+	  </script>
 </body>
 
 </html>
