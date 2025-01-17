@@ -37,3 +37,13 @@ a.rs-layer, a.rs-layer:-webkit-any-link{
   rs-layer:not(.rs-wtbindex), .rs-layer:not(.rs-wtbindex), rs-alyer *:not(.rs-wtbindex), .rs-layer *:not(.rs-wtbindex){
     text-align: center !important;
   }
+
+  #pcpic{
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #pcpic {
+        display: block;
+    }
+}
